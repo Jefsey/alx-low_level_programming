@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * main - check is a character is an alphabet
+ * _isalpha - check is a character is an alphabet
  *
- * Return 1 for success
- * Return 0 otherwise
+ * @c: interger type
+ * Return: 1 for success, 0 otherwise
  */
 int _isalpha(int c)
 {

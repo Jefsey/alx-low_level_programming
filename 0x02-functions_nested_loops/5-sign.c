@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * main - print the sum of a number
+ * print_sign - print the sum of a number
  *
+ * @n: interger value to input
  * Return: 1 if n is greater than 0, 0 if zero and -1 if negative
  *
  */
