@@ -3,13 +3,13 @@
 /**
  * print_last_digit - print last digit of a number
  *
- * @i: the interger to be printed from
+ * @r: the interger to be printed from
  * Return: Last digit
  */
-int print_last_digit(int i)
+int print_last_digit(int r)
 {
-	if (i < 0)
-		n = n * -1;
-	_putchar((n % 10) + '0');
-	return (n % 10);
+	if (r < 0)
+		r = r * -1;
+	_putchar((r % 10) + '0');
+	return (r % 10);
 }

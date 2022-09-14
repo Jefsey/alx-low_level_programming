@@ -3,7 +3,7 @@
 /**
  * times_table - function to print 9 times table
  *
- * Return: Void
+ * Return: Nothing
  *
  */
 void times_table(void)
@@ -32,7 +32,7 @@ void times_table(void)
 			}
 			else
 			{
-				_putchar((res % 10) + '0');
+				_putchar((fin % 10) + '0');
 			}
 		}
 		_putchar('\n');
