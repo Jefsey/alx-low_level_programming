@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
- * main - add two interger and return the answer
+ * add - add two interger and return the answer
  *
+ * @i: first interger to input
+ * @j: second interger to input
  * Return: The interger result
  */
 int add(int i, int j)

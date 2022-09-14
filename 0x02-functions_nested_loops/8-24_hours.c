@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - print all minute in jack Bauer
+ * jack_bauer - print all minute in jack Bauer
  *
  * Return: Time
  */
