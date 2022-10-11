@@ -14,7 +14,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	p = malloc(sizeof(dog_t));
 	if (p == NULL)
 		return (NULL);
-	/* Cpunting name pointer*/
+	/* Counting name pointer*/
 	if (name == NULL)
 	{
 		free(p);
